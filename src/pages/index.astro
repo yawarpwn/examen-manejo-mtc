@@ -31,38 +31,61 @@ import Button from '../components/Button.astro'
     </header>
     <form class='flex-shrink-0 flex-grow p-6 mb-[84px]'>
       <!-- Wrapper -->
-      <div class='h-full max-w-3xl lg:max-w-7xl mx-auto border border-green-300'>
+      <div class='h-full max-w-3xl lg:max-w-7xl mx-auto'>
         <!-- Container -->
-        <div class='flex flex-col md:flex-row gap-8 xl:gap-16 border h-full md:justify-center md:items-center'>
+        <div class='flex flex-col xl:flex-row gap-8 xl:gap-16 h-full xl:justify-center xl:items-center'>
           <!-- Left -->
-          <div class='flex flex-col gap-4 max-w-[538px]'>
-            <figure>
-              <img class='h-10' src='https://sierdgtt.mtc.gob.pe/Content/assets/images/logo2.png' />
-            </figure>
-            <h1 class='text-2xl font-extrabold flex flex-col'>
-              <span class='uppercase text-green-300 font-bold text-sm tracking-tight'>Simulacro de preguntas</span>
-              Para Postulantes a Licencias de Conducir
-            </h1>
-            <p>Esta prueba te dará ...</p>
-            <p> Selecciona la categoría a la que postula: </p>
-            <ul class='border-l border-l-indigo-zinc-300 pl-6 flex gap-1 flex-col'>
-              <li>
-                <span>Categoria AI</span>
-                Particular
-              </li>
-              <li>
-                <span>Categoria AI</span>
-                Particular
-              </li>
-            </ul>
-            <div>
-              <Button>Empezar</Button>
+          <div class='flex justify-center items-center flex-wrap'>
+            <div class='flex flex-col gap-4 max-w-xl w-full'>
+              <figure>
+                <img class='h-10' src='https://sierdgtt.mtc.gob.pe/Content/assets/images/logo2.png' />
+              </figure>
+              <h1 class='text-2xl font-medium flex flex-col'>
+                <span class='uppercase text-accent font-bold text-sm tracking-tight'>Simulacro de preguntas</span>
+                Para Postulantes a Licencias de Conducir
+              </h1>
+              <p
+                >Esta prueba te dará tu nivel de inglés aproximado según la escala MCER (CEFR por sus siglas en inglés).</p
+              >
+              <p> Selecciona la categoría a la que postula: </p>
+              <ul class='border-l border-l-indigo-zinc-300 pl-6 flex gap-1 flex-col'>
+                <li>
+                  <span class='text-white font-bold'>Categoria AI</span>
+                  Particular
+                </li>
+                <li>
+                  <span>Categoria AI</span>
+                  Particular
+                </li>
+              </ul>
+              <div>
+                <Button
+                  >Empezar Prueba
+                  <svg width='1em' height='1em' fill='none' viewBox='0 0 12 12' xmlns='http://www.w3.org/2000/svg'
+                    ><path fill='#13161C' d='M6 0 4.943 1.058 9.128 5.25H0v1.5h9.128l-4.185 4.193L6 12l6-6z'
+                    ></path></svg
+                  >
+                </Button>
+              </div>
             </div>
           </div>
           <!-- Right -->
-          <div class='text-sm max-w-[538px]'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque magni totam blanditiis ratione rerum
-            ullam, incidunt architecto eius earum rem ducimus culpa placeat nobis, dolorum, corporis a tenetur odio?
+          <div class='flex justify-center items-center'>
+            <div class='px-6 py-4 bg-black/10 max-w-xl border w-full border-white/20 rounded-lg'>
+              <p class='mb-4 text-white'>Ten en cuenta que:</p>
+              <ul
+                class={`flex flex-col gap-4 
+                  [&_li]:pl-5 [&_li]:relative [&_li]:before:bg-accent [&_li]:before:content-[""] 
+                  [&_li]:before:w-1.5 [&_li]:before:h-1.5 [&_li]:before:absolute  [&_li]:before:rounded-full 
+                  [&_li]:before:left-0 [&_li]:before:top-1/2
+                `}
+                ><li
+                  class={` 
+`}>La cantidad de preguntas se adapta a tu nivel. Puede tomarte entre 10 y 30 minutos aproximadamente.</li
+                ><li>El test incluye ejercicios de pronunciación y para eso te pediremos que actives el micrófono.</li
+                ><li>Al finalizar, recibirás una ruta de aprendizaje para continuar mejorando tu inglés.</li></ul
+              >
+            </div>
           </div>
         </div>
       </div>
