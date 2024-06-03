@@ -1,0 +1,93 @@
+---
+const questions = [
+  {
+    id: 1,
+    text: 'No lo sé, espero descubrirlo con este test.',
+    value: 'a1',
+    letter: 'A',
+  },
+  {
+    id: 2,
+    text: 'otra pregunta de prueba',
+    value: 'a2',
+    letter: 'B',
+  },
+
+  {
+    id: 3,
+    text: 'No lo sé, espero descubrirlo con este test.',
+    value: 'a1',
+    letter: 'C',
+  },
+  {
+    id: 4,
+    text: 'otra pregunta de prueba',
+    value: 'a2',
+    letter: 'D',
+  },
+
+  {
+    id: 5,
+    text: 'otra pregunta de prueba',
+    value: 'a2',
+    letter: 'E',
+  },
+]
+---
+
+<form class='mx-auto h-full w-full max-w-3xl p-4 xl:max-w-7xl'>
+  <!-- Content -->
+  <div class='flex h-full flex-col justify-start gap-10 xl:flex-row xl:gap-16'>
+    <!-- Left -->
+    <header class='flex flex-wrap items-center justify-center'>
+      <div class='flex flex-col items-start justify-start'>
+        <div class='spacing leading-6 tracking-wide text-white'>
+          <span> Antes de empezar, ¿cuál crees que es tu nivel de inglés? </span>
+        </div>
+      </div>
+    </header>
+    <!-- Right -->
+    <div class='flex h-full w-full flex-col items-center justify-center gap-6 xl:items-center'>
+      <div class='w-full'>
+        <div class='flex flex-col gap-4'>
+          {
+            questions.map((question) => (
+              <label class='relative flex cursor-pointer items-center overflow-hidden rounded-lg border border-zinc-500 bg-black pl-8 leading-6'>
+                <button
+                  role='radio'
+                  id='radio-button'
+                  class='absolute bottom-0 left-0 top-0 w-8 min-w-8 bg-[#222] text-[#fff]'
+                  type='button'
+                  aria-checked='false'
+                  data-state='unchecked'
+                  value={question.value}>
+                  {question.letter}
+                </button>
+                <input
+                  type='radio'
+                  aria-hidden='true'
+                  value={question.value}
+                  tabindex='-1'
+                  class='absolute h-14 w-8 -translate-x-full opacity-100'
+                />
+                <span class='p-4'>{question.text}</span>
+              </label>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom -->
+    <footer class='fixed bottom-0 left-0 right-0 h-[76px]'>
+      <div class='mx-auto flex h-full max-w-3xl items-center justify-end rounded-tl-lg rounded-tr-lg bg-[#1e2229] p-4'>
+        <Button
+          class='w-full'
+          disabled
+          type='submit'
+          >Siguiente</Button
+        >
+      </div>
+    </footer>
+  </div>
+</form>
