@@ -1,0 +1,27 @@
+---
+import Fuse from 'fuse.js'
+const fruits = [
+  {
+    name: 'banana',
+    code: 'bn',
+  },
+  {
+    name: 'pera',
+    code: 'pr',
+  },
+  {
+    name: 'Fresa',
+    code: 'fr',
+  },
+]
+
+const fuse = new Fuse(fruits, { includeScore: true, includeMatches: true })
+const docs = fuse.getIndex()
+console.log(docs.norm.get())
+const hits = fuse.search('fre')
+---
+
+<h1> Prueba </h1>
+<pre class='text-black'>
+  {JSON.stringify(hits, null, 2)}
+</pre>

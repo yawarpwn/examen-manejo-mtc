@@ -33,7 +33,7 @@
     "categoria": "AI",
     "image": 0,
     "index": 3,
-    "pregunta": "La señal vertical reglamentaria R-6 ¿prohibido voltear a la izquierda¿, significa  que:",
+    "pregunta": "La señal vertical reglamentaria R-6 ¿prohibido voltear a la izquierda¿, significa que:",
     "respuesta": "a",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
     "tipo": "Materias generales"
@@ -46,7 +46,7 @@
     "categoria": "AI",
     "image": 1,
     "index": 4,
-    "pregunta": "La señal vertical reglamentaria R-3 significa  que:",
+    "pregunta": "La señal vertical reglamentaria R-3 significa que:",
     "respuesta": "c",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
     "tipo": "Materias generales"
@@ -59,7 +59,7 @@
     "categoria": "AI",
     "image": 0,
     "index": 5,
-    "pregunta": "En  las  vías,  las  marcas  en  el  pavimento  que  son  del  tipo central discontinua y de color amarillo significan que:",
+    "pregunta": "En las vías, las marcas en el pavimento que son del tipo central discontinua y de color amarillo significan que:",
     "respuesta": "a",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
     "tipo": "Materias generales"
@@ -85,7 +85,7 @@
     "categoria": "AI",
     "image": 0,
     "index": 7,
-    "pregunta": "Los colores del semáforo tienen el siguiente significado: rojo:             \n; ámbar o amarillo:              ; verde:            .",
+    "pregunta": "Los colores del semáforo tienen el siguiente significado: rojo:             \n; ámbar o amarillo:             ; verde:           .",
     "respuesta": "a",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
     "tipo": "Materias generales"
@@ -119,7 +119,7 @@
   {
     "alternativa_a": "a) Avanzar en cualquier sentido, ya que la luz circular está en verde.",
     "alternativa_b": "b) Avanzar, pero el giro a la izquierda está prohibido por la flecha roja.",
-    "alternativa_c": "c) Avanzar  únicamente hacia  la  izquierda,  pues continuar  de  frente  está prohibido.",
+    "alternativa_c": "c) Avanzar únicamente hacia la izquierda, pues continuar de frente está prohibido.",
     "alternativa_d": "d) Ninguna de las alternativas es correcta.",
     "categoria": "AI",
     "image": 0,
@@ -183,7 +183,7 @@
   },
   {
     "alternativa_a": "a) Los vehículos que transitan por la vía férrea tienen preferencia de paso sobre los que transitan por la vía que la cruza.",
-    "alternativa_b": "b) Los vehículos  que transitan  por  la  vía  que cruza  la  línea  férrea tienen preferencia de paso sobre los que transitan por la vía férrea.",
+    "alternativa_b": "b) Los vehículos que transitan por la vía que cruza la línea férrea tienen preferencia de paso sobre los que transitan por la vía férrea.",
     "alternativa_c": "c) El vehículo que llegue primero tiene preferencia.",
     "alternativa_d": "d) Tiene preferencia el conductor que viene por la derecha del otro.",
     "categoria": "AI",
@@ -338,7 +338,7 @@
     "tipo": "Materias generales"
   },
   {
-    "alternativa_a": "a) La  presencia  de  un vehículo  inmovilizado  en la  vía  pública  por  alguna circunstancia.",
+    "alternativa_a": "a) La presencia de un vehículo inmovilizado en la vía pública por alguna circunstancia.",
     "alternativa_b": "b) Zona de obras por reparación en la calzada.",
     "alternativa_c": "c) Que el vehículo que lo enfrenta debe detenerse.",
     "alternativa_d": "d) a y c son correctas.",
@@ -560,7 +560,7 @@
   },
   {
     "alternativa_a": "a) Brazo, antebrazo izquierdo y mano extendidos hacia afuera del vehículo.",
-    "alternativa_b": "b) Antebrazo izquierdo y mano extendidos  hacia arriba fuera del vehículo, formando un ángulo recto con el brazo.",
+    "alternativa_b": "b) Antebrazo izquierdo y mano extendidos hacia arriba fuera del vehículo, formando un ángulo recto con el brazo.",
     "alternativa_c": "c) Brazo, antebrazo derecho y mano extendidos hacia afuera del vehículo.",
     "alternativa_d": "d) Ninguna de las alternativas es correcta.",
     "categoria": "AI",
@@ -839,7 +839,7 @@
     "categoria": "AI",
     "image": 0,
     "index": 65,
-    "pregunta": "Si  ocurre  un  accidente de tránsito,  ¿qué  obligación  tiene  el conductor,  el propietario del vehículo o el prestador del servicio de transporte?",
+    "pregunta": "Si ocurre un accidente de tránsito, ¿qué obligación tiene el conductor, el propietario del vehículo o el prestador del servicio de transporte?",
     "respuesta": "c",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
     "tipo": "Materias generales"
@@ -969,7 +969,7 @@
     "categoria": "AI",
     "image": 0,
     "index": 75,
-    "pregunta": "Tienen  el  objetivo  de  notificar  a  los  usuarios  las  limitaciones, prohibiciones o restricciones en el uso de la vía.",
+    "pregunta": "Tienen el objetivo de notificar a los usuarios las limitaciones, prohibiciones o restricciones en el uso de la vía.",
     "respuesta": "a",
     "tema": "Reglamento de Tránsito y\nManual de Dispositivos de\nControl de Tránsito",
     "tipo": "Materias generales"
@@ -1047,7 +1047,7 @@
     "categoria": "AI",
     "image": 0,
     "index": 81,
-    "pregunta": "Sobre  el  uso  del  cinturón  de  seguridad  en  los  vehículos  que se encuentran en circulación, es correcto afirmar que:",
+    "pregunta": "Sobre el uso del cinturón de seguridad en los vehículos que se encuentran en circulación, es correcto afirmar que:",
     "respuesta": "d",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
     "tipo": "Materias generales"
@@ -1068,7 +1068,7 @@
   {
     "alternativa_a": "a) El conductor debe tratar de no utilizar la bocina para llamar la atención en forma innecesaria.",
     "alternativa_b": "b) El uso de la bocina para llamar la atención en forma innecesaria no es una infracción al tránsito.",
-    "alternativa_c": "c) El  conductor únicamente  debe  utilizar la  bocina  para  evitar situaciones peligrosas.",
+    "alternativa_c": "c) El conductor únicamente debe utilizar la bocina para evitar situaciones peligrosas.",
     "alternativa_d": "d) a y b son correctas.",
     "categoria": "AI",
     "image": 0,
@@ -1177,7 +1177,7 @@
     "categoria": "AI",
     "image": 0,
     "index": 91,
-    "pregunta": "Las marcas en el  pavimento  de color                        complementan las señales informativas, como por ejemplo las zonas de estacionamiento para personas con movilidad reducida.",
+    "pregunta": "Las marcas en el pavimento de color                        complementan las señales informativas, como por ejemplo las zonas de estacionamiento para personas con movilidad reducida.",
     "respuesta": "b",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
     "tipo": "Materias generales"
@@ -1197,7 +1197,7 @@
   },
   {
     "alternativa_a": "a) Continuar la circulación por el carril en que se encuentra.",
-    "alternativa_b": "b) Adelantar al vehículo que se encuentra delante de él  y que circula por el carril izquierdo.",
+    "alternativa_b": "b) Adelantar al vehículo que se encuentra delante de él y que circula por el carril izquierdo.",
     "alternativa_c": "c) No adelantar al vehículo que tiene adelante y que circula por el carril izquierdo y continuar por su carril.",
     "alternativa_d": "d) Cambiarse al carril izquierdo con precaución.",
     "categoria": "AI",
@@ -1977,7 +1977,7 @@
   },
   {
     "alternativa_a": "a) Compartir su asiento con un niño, siempre y cuando éste sea menor de un año de edad.",
-    "alternativa_b": "b) Que otra persona tome el control de la dirección del vehículo,  siempre y",
+    "alternativa_b": "b) Que otra persona tome el control de la dirección del vehículo, siempre y",
     "alternativa_c": "c) Conducir con una mano sobre el volante de dirección, cuando es necesario accionar algún comando del vehículo, como realizar los cambios de velocidad.",
     "alternativa_d": "d) Ninguna de las alternativas es correcta.",
     "categoria": "AI",
@@ -2146,7 +2146,7 @@
   },
   {
     "alternativa_a": "a) Está permitida.",
-    "alternativa_b": "b) Está  prohibida,  en  un índice  superior  al  límite máximo  que permite la norma.",
+    "alternativa_b": "b) Está prohibida, en un índice superior al límite máximo que permite la norma.",
     "alternativa_c": "c) Está prohibida en el ámbito urbano.",
     "alternativa_d": "d) La norma no regula sobre ello.",
     "categoria": "AI",
@@ -2158,7 +2158,7 @@
     "tipo": "Materias generales"
   },
   {
-    "alternativa_a": "a) Cuando  la  situación  lo justifique  -  la  circulación o  estacionamiento  de vehículos.",
+    "alternativa_a": "a) Cuando la situación lo justifique - la circulación o estacionamiento de vehículos.",
     "alternativa_b": "b) Aun cuando la situación lo justifique no - circulación o estacionamiento de vehículos.",
     "alternativa_c": "c) No se encuentra facultada ni - circulación de vehículos",
     "alternativa_d": "d) Únicamente con el consentimiento del conductor - circulación de vehículos.",
@@ -2425,7 +2425,7 @@
     "categoria": "AI",
     "image": 1,
     "index": 187,
-    "pregunta": "¿Cuál  es  la  acción  correcta del conductor,  según  las  normas  de tránsito,   en la situación que plantea el siguiente gráfico?",
+    "pregunta": "¿Cuál es la acción correcta del conductor, según las normas de tránsito, en la situación que plantea el siguiente gráfico?",
     "respuesta": "b",
     "tema": "Reglamento de Tránsito y Manual de Dispositivos de Control de Tránsito",
     "tipo": "Materias generales"
@@ -2486,7 +2486,7 @@
     "alternativa_a": "a) Las bocinas y las marcas en la calzada o señales horizontales.",
     "alternativa_b": "b) Las bocinas y las señales verticales.",
     "alternativa_c": "c) Las señales verticales, las marcas en la calzada o señales horizontales y las bocinas.",
-    "alternativa_d": "d) Las  señales verticales  y las  marcas  en  la  calzada o  señales horizontales.",
+    "alternativa_d": "d) Las señales verticales y las marcas en la calzada o señales horizontales.",
     "categoria": "AI",
     "image": 0,
     "index": 192,

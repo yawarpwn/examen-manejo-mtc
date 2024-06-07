@@ -6,6 +6,7 @@ export default {
   semi: false,
   jsxSingleQuote: true,
   htmlWhitespaceSensitivity: 'strict',
+  printWidth: 80,
   singleAttributePerLine: true,
   tailwindConfig: './tailwind.config.mjs',
   tailwindFunctions: ['cn'],

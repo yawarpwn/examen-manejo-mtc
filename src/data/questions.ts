@@ -9,12 +9,12 @@ type Question = {
     d: string
   }
   question: string
-  correctAnswer: string
+  correctAlternative: string
   hasImage: boolean
 }
 
 const replaceMultipleSpaceWithSllipsis = (str: string) =>
-  str.replace(/_/, '').replace(/\s{2,}/g, ' ________ ')
+  str.replace(/_/, '').replace(/\s{3,}/g, ' ________ ')
 const format = (str: string) => str.slice(3, str.length)
 
 export function getQuestions(): Question[] {
@@ -28,7 +28,7 @@ export function getQuestions(): Question[] {
         d: format(question.alternativa_d),
       },
       question: replaceMultipleSpaceWithSllipsis(question.pregunta),
-      correctAnswer: question.respuesta,
+      correctAlternative: question.respuesta,
       hasImage: Boolean(question.image),
     }
   })
